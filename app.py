@@ -17,7 +17,8 @@ model_path = "rice_leaf_model.h5"
 model = tf.keras.models.load_model(model_path)
 
 # Class Labels
-class_labels = sorted(os.listdir("''' + dataset_path + '''"))
+class_labels = ['Bacterial Leaf Blight', 'Brown Spot', 'Healthy Rice Leaf', 'Leaf Blast', 'Leaf scald', 'Sheath Blight']  # Replace with your actual class names
+
 st.sidebar.title("Class Labels")
 for c in class_labels:
     st.sidebar.markdown(f"- {c}")
