@@ -1,5 +1,5 @@
 # ================== CREATE STREAMLIT APP ==================
-app_code = '''
+app_code = 
 import streamlit as st
 import tensorflow as tf
 from tensorflow.keras.preprocessing.image import load_img, img_to_array
@@ -45,7 +45,7 @@ if uploaded_file is not None:
 
 st.markdown("---")
 st.caption("Developed using Streamlit, TensorFlow & EfficientNetB3")
-'''
+
 
 # Write Streamlit app file
 with open("app.py", "w") as f:
