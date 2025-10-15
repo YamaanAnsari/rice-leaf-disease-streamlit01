@@ -48,7 +48,4 @@ st.caption("Developed using Streamlit, TensorFlow & EfficientNetB3")
 
 
 # Write Streamlit app file
-with open("app.py", "w") as f:
-    f.write(app_code)
 
-print("✅ Streamlit app (app.py) created successfully!")
