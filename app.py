@@ -13,8 +13,9 @@ st.title("🌾 Rice Leaf Disease Detection App")
 st.write("Upload a rice leaf image to predict the disease type using an AI model.")
 
 # Load Model
-model_path = 'rice_leaf_model_new2.h5'
+model_path = "rice_leaf_model_new2.h5"  # Must exactly match your saved file name
 model = tf.keras.models.load_model(model_path)
+
 
 # Class Labels
 class_labels = ['Bacterial Leaf Blight', 'Brown Spot', 'Healthy Rice Leaf', 'Leaf Blast', 'Leaf scald', 'Sheath Blight']  # Replace with your actual class names
