@@ -1,5 +1,5 @@
 # ================== CREATE STREAMLIT APP ==================
-app_code = 
+
 import streamlit as st
 import tensorflow as tf
 from tensorflow.keras.preprocessing.image import load_img, img_to_array
